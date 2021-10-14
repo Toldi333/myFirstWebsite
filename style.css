@@ -1,1 +1,105 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');*/
+@font-face {
+    font-family: "RobotoMono";
+    src: url(fonts/RobotoMono-Medium.ttf);
+}
+@font-face {
+    font-family: "KanitBold";
+    src: url(fonts/Kanit-Bold.ttf);
+}
+@font-face {
+    font-family: "FiraSans";
+    src: url(fonts/FiraSansCondensed-Medium.ttf);
+}
 
+body {
+    background-image: url(assets/topography.png);
+    margin:0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+header {
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  
+  li a {  
+    display:block;
+    color: #ff0099;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 5px;
+  }
+  
+  li a:hover {
+    background-color: rgb(70, 0, 0);
+  }
+
+.separator {
+    font-size: 20px;
+    margin-left: 49%;
+    margin-right: 49%;
+}
+
+.text {
+    margin: 120px;
+}
+
+h1 {
+    font-size: 70px;
+    color: black;
+    font-family: "KanitBold";
+}
+
+h2 {
+    color: #ff0099;
+    font-size: 30px;
+    font-family: "FiraSans";
+}
+
+p {
+    font-size: 20px;
+    font-family: "RobotoMono";
+    line-height: 35px;
+}
+
+/*hr {
+    border: 1px dashed;
+    margin-left: 46%;
+    margin-right: 46%;
+    
+}*/
+
+.alcim {
+    text-align: center;
+    font-size: 45px
+}
+
+.definicio {
+    color: black;
+    font-size: 38px;
+    font-family_:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.defp {
+    font-size: 15px;
+    
+}
