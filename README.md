@@ -1,2 +1,2 @@
 # myFirstWebsite
-GF tanfolyamra projektmunka
+GF tanfolyamra projektmunka / Projectwork for GreenFox course
